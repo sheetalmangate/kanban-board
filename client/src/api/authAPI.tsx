@@ -3,7 +3,7 @@ import { UserLogin } from "../interfaces/UserLogin";
 const login = async (userInfo: UserLogin) => {
   // TODO: make a POST request to the login route
   try {
-
+    
     // send POST request to 'auth/login'
     const response = await fetch('/auth/login',{
       method:'POST',
@@ -13,12 +13,13 @@ const login = async (userInfo: UserLogin) => {
       body: JSON.stringify(userInfo)
     });
 
-    if(!response.ok) {
-      const errorData = await response.json();
-      throw new Error(`Error: ${errorData.message}`);
-    }
 
     const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error('User information not retrieved, check network tab!');
+    }
+
     return data;
 
   } catch(error) {
@@ -28,7 +29,5 @@ const login = async (userInfo: UserLogin) => {
   }
 
 }
-
-
 
 export { login };
