@@ -2,9 +2,7 @@
 
 ## Overview
 
-    This application authenticates users with a JWT token. Users of Kanban board can access their 
-    work securely using a JWT token. 
-    This applicaiton is developed using Express, React and PostgreSQl.
+    This application authenticates users with a JWT token. Users of Kanban board can access their work securely using a JWT token. 
 
 ## Features
 - Authenticate user using JWT authentication.
