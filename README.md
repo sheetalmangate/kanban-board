@@ -38,7 +38,7 @@ installed on your machine.
 ## Contributing
 Contributions and PR's are welcome.
 
-- Feel free to check [issues page](https://github.com/sheetalmangate/weather_dashboard/issues) if you want to contribute.
+- Feel free to check [issues page](https://github.com/sheetalmangate/kanban-board/issues) if you want to contribute.
 - Open a Pull Request 
     <p>Navigate to the original repository and click on "New Pull Request". Describe your changes and submit the pull request.</p>
 
