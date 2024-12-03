@@ -20,5 +20,5 @@ const seedAll = async (): Promise<void> => {
   }
 };
 
-//seedAll();
-export {seedAll}
+seedAll();
+//export {seedAll}
